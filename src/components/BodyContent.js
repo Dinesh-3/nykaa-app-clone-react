@@ -8,7 +8,7 @@ import RepublicOffer from "./MainContent/RepublicOffer"
 import ScrollToTop from "./MainContent/ScrollToTop"
 import SpecialCollection from "./MainContent/SpecialCollection"
 
-
+import "../css/Content.css"
 class BodyContent extends Component {
     render() {
         return (

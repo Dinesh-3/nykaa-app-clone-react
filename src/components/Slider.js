@@ -1,5 +1,5 @@
 import { Component } from "react"
-
+import "../css/Slider.css"
 class Slider extends Component {
     
     constructor(){

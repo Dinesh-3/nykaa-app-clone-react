@@ -3,7 +3,9 @@ import { Component } from "react"
 import NewsLetter from "./Footer/NewsLetter"
 import FooterLinks from "./Footer/FooterLinks"
 import FooterSocial from "./Footer/Social"
+import Copyright from "./Copyright"
 
+import "../css/Footer.css"
 class FooterComponent extends Component {
     render() {
         return (
@@ -11,6 +13,7 @@ class FooterComponent extends Component {
                 <NewsLetter />
                 <FooterLinks />
                 <FooterSocial />
+                <Copyright />
             </div>
         )
     }

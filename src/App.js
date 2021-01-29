@@ -5,7 +5,7 @@ import Links from "./components/Links"
 import Slider from "./components/Slider"
 import BodyContent from "./components/BodyContent"
 import FooterComponent from "./components/Footer"
-import Copyright from "./components/Copyright"
+
 
 function App() {
   return (
@@ -15,7 +15,6 @@ function App() {
             <Slider />
             <BodyContent />
             <FooterComponent />
-            <Copyright />
         </div>
   );
 }
