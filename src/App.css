@@ -150,7 +150,7 @@ h1 {
     color: var(--nykaa-pink);
 }
 .top_menu .logo_wrapper i {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .top_menu>div {
@@ -185,7 +185,7 @@ h1 {
 
 .header_nav a {
     font-weight: 800;
-    font-size: large;
+    font-size: 0.8rem;
     font-stretch: condensed;
     padding: 20px 0px 0px 20px;
 }
@@ -203,7 +203,7 @@ h1 {
     background: rgb(243, 243, 244);
     position: relative;
     display: block;
-    padding: 6px 15px;
+    padding: 3px 10px;
     border-radius: 8px;
 }
 
@@ -400,7 +400,7 @@ h1 {
 
 .card_container {
     align-self: center;
-    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .card_container a {
@@ -758,5 +758,13 @@ h1 {
     .app_logo_container a img{
         width: 10rem;
         height: 4rem;
+    }
+    .scroll_to_top {
+        width: 40px;
+        height: 40px;
+    }
+    .scroll_to_top i {
+        font-size: 2rem;
+        margin-bottom: 40px;
     }
 }
