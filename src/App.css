@@ -143,9 +143,12 @@ h1 {
 .top_header a {
     margin-right: 18rem;
     animation: slideTop 5s linear 5s infinite normal;
-    ;
+    font-weight: 500;
+    color: black;
 }
-
+.top_header a:hover {
+    color: var(--nykaa-pink);
+}
 .top_menu .logo_wrapper i {
     font-size: 2rem;
 }
@@ -271,6 +274,9 @@ h1 {
 
 .navbar>li:hover {
     border-bottom: 2px solid var(--nykaa-pink);
+}
+.navbar a {
+    font-size: 1rem;
 }
 
 .navbar a:hover {
@@ -649,15 +655,15 @@ h1 {
     }
 
     40% {
-        transform: translateY(-50%);
+        transform: translateY(-100%);
     }
 
     60% {
-        transform: translateY(-25%);
+        transform: translateX(0);
     }
 
     80% {
-        transform: translateX(0);
+        transform: translateY(100%);
     }
 
     100% {
