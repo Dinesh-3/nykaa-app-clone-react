@@ -585,6 +585,9 @@ h1 {
     justify-content: space-around;
 }
 
+.footer_social {
+    padding-top: 2rem;
+}
 .footer_social ul {
     padding-top: 1rem;
 }
